@@ -73,9 +73,9 @@ export default {
       },
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
-        "conic-gradient":
-        "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+        "conic-gradient": "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
         "profile-picture": "url(assets/profile.jpg)",
+        "service-card-1": "url(assets/services/card-1.svg)",
       },
       animation: {
         "profile": "wiggle 8s ease-in-out infinite 1s",

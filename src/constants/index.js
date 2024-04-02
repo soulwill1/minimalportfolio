@@ -1,4 +1,13 @@
-import { instagram, github, linkedin, profile } from "../assets";
+import { 
+    instagram, 
+    github, 
+    linkedin, 
+    profile, 
+    serviceImage,
+    serviceCard1,
+    serviceIco1,
+    serviceIco2, 
+} from "../assets";
 
 export const navigation = [
     {
@@ -53,3 +62,25 @@ export const backgrounds = [
         imageUrl: profile,
     },
 ];
+
+export const services = [
+    {
+        id: "0",
+        title: "Desenvolvimento web",
+        text: "Criação de websites com estilos exclusivos, feitos especialmente para o seu projeto.",
+        backgroundUrl: "assets/benefits/card-1.svg",
+        icoUrl: serviceIco2,
+        imgUrl: serviceImage,
+    },
+];
+
+export const projects = [
+    {
+        id: "0",
+        title: "Projetos de clientes",
+    },
+    {
+        id: "1",
+        title: "Projetos pessoais",
+    },
+]

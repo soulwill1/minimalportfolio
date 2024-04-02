@@ -31,8 +31,8 @@ const Header = () => {
     <div 
         className={`fixed top-0 left-0 w-full z-50 border-n-3 lg:bg-n-1/90 lg:backdrop-blur-sm
         ${openNavigation ? "bg-n-14" : "bg-n-14/90 backdrop-blur-sm"}`}>
-        <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-            <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 mx-auto max-w-[80rem]">
+            <a className="block w-1/2 xl:mr-8" href="#hero">
                 <img 
                     src={ soulwill }
                     width={190} 
