@@ -4,8 +4,6 @@ import {
     linkedin, 
     profile, 
     serviceImage,
-    serviceCard1,
-    serviceIco1,
     serviceIco2, 
 } from "../assets";
 
@@ -74,7 +72,7 @@ export const services = [
     },
 ];
 
-export const projects = [
+export const projectschoice = [
     {
         id: "0",
         title: "Projetos de clientes",
@@ -82,5 +80,26 @@ export const projects = [
     {
         id: "1",
         title: "Projetos pessoais",
+    },
+]
+
+export const projects = [
+    {
+        id: "0",
+        title: "Manoel Coelho Advocacia",
+        subtitle: "Design realizado em react",
+        link: "",
+    },
+    {
+        id: "1",
+        title: "Dom Antônio Alfaitaria",
+    },
+    {
+        id: "2",
+        title: "Willians mecânica",
+    },
+    {
+        id: "3",
+        title: "Fight Sports",
     },
 ]

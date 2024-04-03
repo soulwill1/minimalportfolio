@@ -1,8 +1,6 @@
 import { backgrounds } from "../../constants";
 import Socials from "./Socials";
-import Button from '../Button';
 import { Gradient } from "../design/Hero";
-import curve from "../../assets/hero/curve.png";
 
 const Hero = () => {
   return (
@@ -23,7 +21,7 @@ const Hero = () => {
                   alt={item.title} 
                   width={400}
                   height={400}
-                  className="border rounded-2xl backdrop-blur bg-conic-gradient p-0.5"
+                  className="border rounded-2xl backdrop-blur p-0.5"
                 />
                 <Gradient />
               </div>
@@ -37,13 +35,7 @@ const Hero = () => {
             <h3 className="h5 text-n-8">
               <span className="inline-block relative">
                 Desenvolvedor Web
-                <img
-                  src={curve}
-                  className="absolute top-full left-0 w-full xl:-mt-2"
-                  width={624}
-                  height={28}
-                  alt="curve"
-                />
+                <div className="w-[20rem] h-0.5 bg-n-8"></div>
               </span>
             </h3>
             <p className="text-n-8 pt-10">
@@ -51,9 +43,9 @@ const Hero = () => {
               de forma visual criando websites responsivos e com interfaces funcionais. 
             </p>
             <a href="" className="">
-              <Button className="text-n-8 mt-10">
+              <button className="text-n-1 mt-10 bg-n-8 rounded-lg p-4 px-8 font-light">
                 FALE COMIGO
-              </Button>
+              </button>
             </a>
           </div>
         </div>

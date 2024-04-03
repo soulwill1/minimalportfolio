@@ -3,7 +3,6 @@ import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import soulwill from "../assets/soulwill.svg";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
-import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 
 const Header = () => {
@@ -60,9 +59,9 @@ const Header = () => {
                     ))}
                 </div>
             </nav>
-            <Button className="ml-auto lg:hidden" px="px-3" onClick={ toggleNavigation }>
+            <button className="ml-auto lg:hidden" onClick={ toggleNavigation }>
                 <MenuSvg openNavigation={openNavigation} />
-            </Button>
+            </button>
         </div>
     </div>
   )
